@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# debug test scripts (not the proper tests/ directory)
+/test_*.py
+/run_tests.py
+
+# benchmark-specific
+venv/
+results.csv
+.pytest_cache/
+htmlcov/
+coverage.xml
+*.py[codz]
+.idea/
+.vscode/
+tempCodeRunnerFile.py
